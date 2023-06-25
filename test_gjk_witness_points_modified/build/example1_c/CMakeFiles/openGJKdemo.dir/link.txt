@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/openGJKdemo.dir/main.c.o  -o ../../bin/openGJKdemo  ../lib/libopenGJKlib.a -lm 

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/include/openGJK/openGJK.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+
+/home/lirun/Desktop/test_gjk_witness_points/example1_c/main.c
+stdio.h
+-
+openGJK/openGJK.h
+/home/lirun/Desktop/test_gjk_witness_points/example1_c/openGJK/openGJK.h
+
